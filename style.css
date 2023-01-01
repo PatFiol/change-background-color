@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,400&display=swap');
+
+:root {
+  --main-dark: hsl(0, 0%, 13%);
+  --main-light: hsl(0, 0%, 60%);
+  --red: hsl(0, 97%, 54%);
+  --orange: hsl(32, 93%, 50%);
+  --yellow: hsl(59, 100%, 54%);
+  --light-green: hsl(113, 92%, 70%);
+  --dark-green: hsl(137, 85%, 19%);
+  --dark-blue: hsl(247, 79%, 43%);
+  --light-blue: hsl(192, 97%, 60%);
+  --purple: hsl(287, 89%, 24%);
+  --pink: hsl(294, 84%, 77%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 43%);
+  --black: hsl(0, 0%, 2%);
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+#main-button{
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+#button-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  align-self: center;
+  row-gap: 2rem;
+
+}
+
+button {
+  padding: 1em;
+  border: none;
+  cursor: pointer;
+}
+
+#button-container button {
+  margin-inline-end: 1rem;
+  box-shadow: 0 0 2px var(--main-light);
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+}
+
+.red {
+  background-color: var(--red);
+}
+.dark-blue {
+  background-color: var(--dark-blue);
+}
+.light-blue {
+  background-color: var(--light-blue);
+}
+.light-green {
+  background-color: var(--light-green);
+}
+.dark-green {
+  background-color: var(--dark-green);
+}
+.yellow {
+  background-color: var(--yellow);
+}
+.orange {
+  background-color: var(--orange);
+}
+.purple {
+  background-color: var(--purple);
+}
+.pink {
+  background-color: var(--pink);
+}
+.white {
+  background-color: var(--white);
+}
+.white {
+  background-color: var(--white);
+}
+.grey {
+  background-color: var(--grey);
+}
+.black {
+  background-color: var(--black);
+}
+
+
+@media screen and (min-width: 600px) {
+  #button-container {
+    display: flex;
+  }
+}
