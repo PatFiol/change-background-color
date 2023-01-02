@@ -18,7 +18,7 @@ function showColors(e) {
     <button class="light-blue"></button>
     <button class="purple"></button>
     <button class="pink"></button>
-    <button class="white"></button>
+    <button class="brown"></button>
     <button class="grey"></button>
     <button class="black"></button>
   `
@@ -65,6 +65,10 @@ buttons.addEventListener('click', (e) => {
       case ('pink'):
         background.className = 'pink';
         localStorage.setItem('background color', 'pink')
+        break;
+      case ('brown'):
+        background.className = 'brown';
+        localStorage.setItem('background color', 'brown')
         break;
       case ('grey'):
         background.className = 'grey';

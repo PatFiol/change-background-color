@@ -12,7 +12,7 @@
   --light-blue: hsl(192, 97%, 60%);
   --purple: hsl(287, 89%, 24%);
   --pink: hsl(294, 84%, 77%);
-  --white: hsl(0, 0%, 100%);
+  --brown: hsl(18, 62%, 24%);
   --grey: hsl(0, 0%, 43%);
   --black: hsl(0, 0%, 2%);
 
@@ -88,11 +88,8 @@ button {
 .pink {
   background-color: var(--pink);
 }
-.white {
-  background-color: var(--white);
-}
-.white {
-  background-color: var(--white);
+.brown {
+  background-color: var(--brown);
 }
 .grey {
   background-color: var(--grey);
